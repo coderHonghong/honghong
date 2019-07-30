@@ -1,0 +1,101 @@
+//表头不错位
+body .el-table th.gutter{
+  display: table-cell!important;
+}
+
+body .el-table colgroup.gutter{
+  display: table-cell!important;
+}
+//表头字体样式
+.el-table th.is-leaf{
+  text-align: left;
+  background-color: #EEF2FE;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  font-weight: normal;
+}
+.el-table td{
+  text-align: left;
+}
+//form label样式
+.el-form-item--small .el-form-item__label{
+  font-size: 12px;
+  font-family: "微软雅黑";
+  font-weight: normal;
+}
+.head-btn-box{
+  background: #f2f2f2;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 35px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.form-area-title{
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-weight: 600;
+}
+//dialog样式
+.el-dialog {
+  top:7vh;
+  margin: 0 auto !important;
+  height: 85%;
+  overflow: hidden;
+  .el-dialog__header{
+    background-color: #5DAAFA;
+    height: 40px;
+    padding: 0 20px;
+    line-height: 40px;
+    .el-dialog__title{
+      font-size: 14px;
+      color: #ffffff;
+    }
+    .el-dialog__headerbtn{
+      top: 12px;
+    }
+    .el-dialog__close{
+      color: #ffffff;
+    }
+
+  }
+  .el-dialog__body {
+    padding-top: 0;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    bottom: 70px;
+    right: 0;
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+    z-index: 1;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  .el-dialog__footer{
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+  }
+}
+.footer-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.el-form-item--small .el-form-item__label{
+  text-align: left;
+  margin-left: 15px;
+}
+
+.margin-right{
+  margin-right: 13px;
+}
+
